@@ -6,6 +6,6 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Run action
-      uses: Akshay090/github_action@master
+      uses: jainal09/strivio@master
       with:
-        path: ${{ secrets.oath }}
+        oath: ${{ secrets.oath }}
