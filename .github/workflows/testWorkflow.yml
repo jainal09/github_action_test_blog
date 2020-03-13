@@ -8,4 +8,4 @@ jobs:
     - name: Run action
       uses: Akshay090/github_action@master
       with:
-        path: testFile.txt
+        path: ${{ secrets.oath }}
